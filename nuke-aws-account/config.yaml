@@ -1,0 +1,84 @@
+regions:
+  - us-east-1
+  - global
+  - us-east-2
+  - us-west-2
+  - us-west-1
+
+account-blocklist:
+  - "000000000000"
+
+accounts:
+  "111111111111":
+    filters:
+    resource-types:
+      excludes:
+        - FMSNotificationChannel
+        - MachineLearningEvaluation
+        - MachineLearningBranchPrediction
+        - OpsWorksInstance
+        - OpsWorksLayer
+        - MachineLearningDataSource
+        - OpsWorksCMServer
+        - OpsWorksCMBackup
+        - RoboMakerRobotApplication
+        - RoboMakerSimulationJob
+        - Cloud9Environment
+        - FMSPolicy
+        - ElasticTranscoderPreset
+        - RoboMakerSimulationApplication
+        - OpsWorksCMServerState
+        - CloudSearchDomain
+        - MachineLearningMLModel
+        - OpsWorksApp
+        - ElasticTranscoderPipeline
+        - OpsWorksUserProfile
+        - CodeStarProject
+        - ServiceCatalog
+        - ServiceCatalogTagOption
+        - ServiceCatalogTagOptionPortfolioAttachment
+        - S3Bucket
+        - S3Object
+        - S3MultipartUpload
+        - S3BucketPolicy
+        - S3BucketPublicAccessBlock
+        - S3BucketAnalyticsConfiguration
+        - S3BucketInventoryConfiguration
+        - S3BucketMetricsConfiguration
+        - S3BucketEncryption
+        - S3BucketLifecycle
+        - S3BucketCors
+        - S3BucketNotification
+        - S3BucketReplication
+        - S3BucketTagging
+        - S3BucketLogging
+        - S3BucketWebsite
+        - S3BucketVersioning
+        - S3BucketAccelerateConfiguration
+        - S3BucketRequestPayment
+        - S3AccessPoint
+        - S3StorageLens
+        - S3StorageLensConfiguration
+        - IAMAccessKey
+        - IAMAccountAlias
+        - IAMAccountPasswordPolicy
+        - IAMAttachedGroupPolicy
+        - IAMAttachedRolePolicy
+        - IAMAttachedUserPolicy
+        - IAMGroup
+        - IAMGroupPolicy
+        - IAMInstanceProfile
+        - IAMLoginProfile
+        - IAMOpenIDConnectProvider
+        - IAMPolicy
+        - IAMRole
+        - IAMRolePolicy
+        - IAMSAMLProvider
+        - IAMServerCertificate
+        - IAMServiceLinkedRole
+        - IAMUser
+        - IAMUserAccessKey
+        - IAMUserGroupAttachment
+        - IAMUserPolicy
+        - IAMUserPolicyAttachment
+        - IAMVirtualMFADevice
